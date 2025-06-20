@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Consultoria de Imagem & Coloração Pessoal</title>
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="bg-white text-gray-800">
+  <header class="bg-color shadow-md py-3">
+    <div class="max-w-7xl mx-auto flex items-center justify-between">
+      <!-- Logo -->
+      <div class="flex items-center space-x-2">
+        <a href="#">
+          <img src="https://acdn-us.mitiendanube.com/stores/002/543/945/themes/common/logo-755835256-1669591513-8c7ee26beff64f32b3a17d2c6daab9fc1669591514.png" alt="Logo Zadrí" class="h-20 w-auto">
+        </a>
+      </div>
+
+      <!-- Menu de navegação -->
+      <nav class="hidden md:flex space-x-6">
+        <a href="https://zadri.com.br" class="text-white hover:text-gray-300 font-medium px-3 py-2 transition">Loja</a>
+        <a href="#sobre" class="text-white hover:text-gray-300 font-medium px-3 py-2 transition">Sobre</a>
+      </nav>
+
+      <!-- Menu mobile opcional -->
+      <div class="md:hidden">
+        <button id="menu-toggle" class="text-gray-700 focus:outline-none text-xl px-4 py-2 rounded me-2 border-1 text-white hover:text-gray-300 cursor-pointer">☰</button>
+      </div>
+    </div>
+
+    <!-- Menu mobile dropdown (opcional) -->
+    <div id="mobile-menu" class="md:hidden hidden px-6 mt-2 space-y-2">
+      <a href="https://zadri.com.br" class="block text-white hover:text-gray-300">Loja</a>
+      <a href="#sobre" class="block text-white hover:text-gray-300">Sobre</a>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section class="py-30 px-6 text-center">
+    <div class="max-w-4xl mx-auto">
+      <h1 class="text-4xl md:text-5xl font-bold mb-4">Realce sua Beleza com Coloração Pessoal e Consultoria de Imagem</h1>
+      <p class="text-lg text-gray-600 mb-6">Descubra suas cores ideais e crie um estilo que representa quem você realmente é</p>
+      <a href="#coloracao" class="bg-pink-500 hover:bg-pink-600 text-white font-semibold py-3 px-6 rounded-full transition">Começar agora</a>
+    </div>
+  </section>
+
+  <!-- Serviços -->
+  <section id="servicos" class="bg-gray-50 py-20 bg-section">
+    <div class="max-w-6xl mx-auto px-6 grid md:grid-cols-3 gap-10">
+      <div class="rounded-lg shadow-lg overflow-hidden service-card" style="background-image: url('images/zadri-cores-2.jpg');">
+        <div class="p-8 service-card-overlay h-full">
+          <h2 class="text-2xl font-semibold mb-4">Coloração Pessoal</h2>
+          <p class="mb-4">Descubra quais cores realçam sua beleza natural.</p>
+          <a href="#coloracao" class="btn-primary py-2 px-4 rounded shadow-md transition inline-block">Saiba mais</a>
+        </div>
+      </div>
+      <div class="rounded-lg shadow-lg overflow-hidden service-card" style="background-image: url('images/zadri-jornal.jpg');">
+        <div class="p-8 service-card-overlay h-full">
+          <h2 class="text-2xl font-semibold mb-4">Consultoria de Imagem</h2>
+          <p class="mb-4">Guarda-roupa alinhado com sua personalidade.</p>
+          <a href="#imagem" class="btn-primary py-2 px-4 rounded shadow-md transition inline-block">Saiba mais</a>
+        </div>
+      </div>
+      <div class="rounded-lg shadow-lg overflow-hidden service-card" style="background-image: url('images/zadri-cabides.jpg');">
+        <div class="p-8 service-card-overlay h-full">
+          <h2 class="text-2xl font-semibold mb-4">Pacote Completo</h2>
+          <p class="mb-4">Transformação completa com coloração + imagem.</p>
+          <a href="#pacote" class="btn-primary py-2 px-4 rounded shadow-md transition inline-block">Saiba mais</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Coloração Pessoal -->
+  <section id="coloracao" class="py-16 px-6 bg-white text-center">
+    <div class="max-w-4xl mx-auto">
+      <h2 class="text-3xl font-bold mb-4">Análise de Coloração Pessoal</h2>
+      <p class="text-gray-700 text-lg mb-6">
+        A análise de coloração pessoal identifica os tons que mais valorizam sua pele, olhos e cabelo. Através de tecidos específicos, descobrimos sua paleta ideal (primavera, verão, outono ou inverno), otimizando suas escolhas de roupas, acessórios e maquiagem.
+      </p>
+      <div class="rounded-xl mx-auto shadow mb-6 bg-cover bg-no-repeat bg-center" style="background-image: url('images/zadri-coloracao.jpg'); background-position: center top; width: 350px; height:400px;"></div>
+      <a href="https://wa.me/5534984089759?text=Quero%20saber%20mais%20sobre%20an%C3%A1lise%20de%20cores%2E" target="_blank" class="inline-block bg-pink-500 hover:bg-pink-600 text-white font-semibold py-3 px-6 rounded-full transition">Agendar Análise de Cores</a>
+    </div>
+  </section>
+
+  <!-- Consultoria de Imagem -->
+  <section id="imagem" class="py-16 px-6 bg-gray-50 text-center">
+    <div class="max-w-4xl mx-auto">
+      <h2 class="text-3xl font-bold mb-4">Consultoria de Imagem</h2>
+      <p class="text-gray-700 text-lg mb-6">
+        A consultoria de imagem ajuda você a alinhar sua aparência com seus objetivos pessoais e profissionais. Inclui análise de estilo, tipos físicos, guarda-roupa e orientação de compras. Ideal para quem deseja transmitir mais autenticidade e segurança.
+      </p>
+      <div class="rounded-xl mx-auto shadow mb-6" style="background-image: url('images/zadri-jornal.jpg'); background-size: cover; background-position: center center; width: 350px; height:400px;"></div>
+      <a href="https://wa.me/5534984089759?text=Quero%20saber%20mais%20sobre%20Consultoria%20de%20Imagem%2E" target="_blank" class="inline-block bg-rose-500 hover:bg-rose-600 text-white font-semibold py-3 px-6 rounded-full transition">Agendar Consultoria de Imagem</a>
+    </div>
+  </section>
+
+  <!-- Pacote Completo -->
+  <section id="pacote" class="py-20 px-6 bg-white text-center">
+    <div class="max-w-3xl mx-auto">
+      <h2 class="text-3xl font-bold mb-4">Pacote Completo: Cores + Imagem</h2>
+      <p class="text-gray-700 text-lg mb-6">
+        Quer uma transformação completa? Nosso pacote une a análise de coloração com a consultoria de imagem personalizada. Ideal para quem deseja entender sua beleza única e criar uma imagem marcante, do look ao estilo de vida.
+      </p>
+      <div class="mt-5 rounded-lg relative" style="background-color: #00000033;">
+        <div class="overflow-hidden shadow-lg mx-auto" style="width:350px;">
+      	  <div id="carousel" class="flex transition-transform duration-500 ease-in-out" style="width:350px; height:400px;">
+       	    <img src="images/zadri-blazer.jpg" class="flex-shrink-0" alt="Imagem 1" style="width:350px; object-fit: cover;">
+            <img src="images/zadri-cabides.jpg" class="flex-shrink-0" alt="Imagem 2" style="width:350px; object-fit: cover;">
+            <img src="images/zadri-cores-2.jpg" class="flex-shrink-0" alt="Imagem 3" style="width:350px; object-fit: cover;">
+          </div>
+        </div>
+        <!-- Botões -->
+        <button id="prevBtn" class="absolute left-0 top-1/2 transform -translate-y-1/2 bg-pink-500 text-white px-3 py-2 rounded hover:bg-pink-600 cursor-pointer">‹</button>
+        <button id="nextBtn" class="absolute right-0 top-1/2 transform -translate-y-1/2 bg-pink-500 text-white px-3 py-2 rounded hover:bg-pink-600 cursor-pointer">›</button>
+      </div>
+      <a href="https://wa.me/5534984089759?text=Quero%20saber%20mais%20sobre%20Consultoria%20Completa%2E" target="_blank" class="inline-block bg-green-600 hover:bg-green-700 text-white font-semibold mt-5 py-3 px-6 rounded-full transition">Quero o Pacote Completo</a>
+    </div>
+  </section>
+
+  <!-- Sobre a Consultora -->
+  <section id="sobre" class="py-16 px-6 bg-gray-100 text-center">
+    <div class="max-w-3xl mx-auto">
+      <h2 class="text-2xl font-bold mb-4">Quem sou eu</h2>
+      <p class="text-gray-700 text-lg mb-6">
+        Sou <strong>Poliana Farias Santos</strong>, formada em consultoria de imagem e especialista em coloração pessoal. Meu objetivo é ajudar você a descobrir sua beleza autêntica e a construir um estilo com intenção e identidade.
+      </p>
+      <img src="images/zadri-pose.jpg" alt="Foto da consultora" class="mx-auto rounded-xl shadow" style="width:350px; height:400px; object-fit: cover;" />
+    </div>
+  </section>
+
+  <!-- Depoimentos -->
+  <section class="py-16 px-6 bg-white text-center">
+    <div class="max-w-4xl mx-auto">
+      <h2 class="text-3xl font-bold mb-10">Depoimentos</h2>
+      <div class="grid md:grid-cols-2 gap-8">
+        <blockquote class="bg-pink-100 p-6 rounded-xl shadow">
+          <p class="italic text-gray-700 mb-2">"Aprendi a valorizar minha beleza natural. Hoje compro com consciência e me sinto muito mais confiante."</p>
+          <footer class="text-right font-semibold">— Camila R.</footer>
+        </blockquote>
+        <blockquote class="bg-pink-100 p-6 rounded-xl shadow">
+          <p class="italic text-gray-700 mb-2">"A consultoria de imagem me ajudou até nas entrevistas de emprego. Me sinto mais preparada e alinhada com quem sou."</p>
+          <footer class="text-right font-semibold">— Renata L.</footer>
+        </blockquote>
+      </div>
+    </div>
+  </section>
+
+  <!-- Rodapé -->
+  <footer class="bg-pink-50 text-gray-700 py-6">
+    <div class="max-w-6xl mx-auto px-6 flex flex-col md:flex-row gap-2 justify-between items-center">
+      <p class="text-sm">&copy; 2025 Poliana Farias Santos. Todos os direitos reservados.</p>
+      <div class="social flex md:flex-row items-center">
+        <a href="https://www.instagram.com/zadri.store" target="_blank"><img src="https://cdn-icons-png.flaticon.com/512/1384/1384063.png" alt="Instagram"></a>
+        <a href="https://www.facebook.com/zadri.store" target="_blank"><img src="https://cdn-icons-png.flaticon.com/512/5968/5968764.png" alt="Facebook"></a>
+        <a href="https://www.tiktok.com/@zadri.store" target="_blank"><img src="https://cdn-icons-png.flaticon.com/512/3046/3046121.png" alt="TikTok"></a>
+        <a href="https://www.youtube.com/@zadristore" target="_blank"><img src="https://cdn-icons-png.flaticon.com/512/1384/1384060.png" alt="YouTube"></a>
+        <a href="https://www.pinterest.com/zadristore" target="_blank"><img src="https://cdn-icons-png.flaticon.com/512/145/145808.png" alt="Pinterest"></a>
+      </div>
+    </div>
+  </footer>
+  <script src="js/script.js"></script>
+</body>
+</html>

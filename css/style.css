@@ -1,0 +1,47 @@
+:root {
+    --bege-offwhite: #F2EFE8;
+    --verde-oliva: #8A9478;
+    --principal: #506d84;
+  }
+  .bg-color {
+    background-color: var(--principal);
+  }
+  .btn-primary {
+    background-color: var(--principal);
+    color: var(--bege-offwhite);
+  }
+  .btn-primary:hover {
+    background-color: var(--verde-oliva);
+  }
+  .text-headings {
+    color: var(--principal);
+  }
+  .service-card {
+    background-size: cover;
+    background-position: center;
+    color: white;
+  }
+  .service-card-overlay {
+    background-color: rgba(0, 0, 0, 0.4);
+    backdrop-filter: blur(2px);
+  }
+  .social {
+    text-align: center;
+  }
+
+  .social a {
+    margin: 0 10px;
+    display: inline-block;
+    text-decoration: none;
+  }
+
+  .social img {
+    width: 32px;
+    height: 32px;
+    filter: grayscale(100%);
+    transition: filter 0.3s;
+  }
+
+  .social img:hover {
+    filter: none;
+  }
